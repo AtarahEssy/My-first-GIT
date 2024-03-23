@@ -1,3 +1,6 @@
+body {
+  background-color: rgb(224, 71, 255);
+}
 h1 {
   text-align: center;
   color: rgb(130, 8, 107);
@@ -5,4 +8,21 @@ h1 {
 h2 {
   text-align: center;
   color: yellowgreen;
+}
+.coder {
+  display: block;
+  margin: 30px auto;
+  width: 400px;
+}
+input {
+  display: block;
+  margin-bottom: 10px;
+  background-color: rgb(194, 127, 242);
+  padding: 15px;
+  border-radius: 5px;
+}
+.form-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
